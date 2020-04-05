@@ -1,0 +1,44 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+.jumbotron-hero {
+    /* Choisis la hauteur ici */
+    height: 600px;
+    /* Tu lui donnes une image de background */
+    background-image: url("linus-nylund-SfdwxMA5VIM-unsplash.jpg");
+    /* Centre l'image et la met bien sur tous les écrans */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span {
+    color: rgb(10, 74, 85);
+}
+
+h1,h2{
+    text-align : center;
+    /* margin-top: 30px; */
+    /*padding-bottom: 10px; 
+    padding-top: 10px; */
+}
+
+.link{
+    text-align : center;
+    margin-top: 400px;
+}
+
+/* STRUCTURE */
+#container{ background-color: #fafafa; } 
+#content{ width: 760px; margin: auto; margin-top: 10px; padding-bottom: 10px; padding-top: 10px; } 
+
+/* FOOTER */ 
+footer{ padding: 20px 0px; 
+    text-align: center; 
+    margin-top: 20px; 
+    border-top: 1px solid #e6e6e6; 
+    font-size: 0.8em; 
+    color: #9a9a9a; 
+    background-color: #fafafa; } 
+footer a{ color: #9a9a9a; } 
